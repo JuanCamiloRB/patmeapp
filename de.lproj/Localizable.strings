@@ -1,0 +1,113 @@
+/* 
+  Localizable.strings
+  patmeapp
+
+  Created by Juan Camilo on 22/12/21.
+  
+*/
+
+//Login idioma
+
+"language" = "de";
+
+// startViewController
+"start_view_title_txt_1" = "Welches Haustier möchten Sie erstellen?";
+
+//LoginViewController
+
+"login_view_title_txt_1" = "Willkommen bei patme";
+"login_view_title_txt_2" = "A better tomorrow for pets";
+"login_view_title_btn_1" = "Login";
+"login_view_title_btn_2" = "Ich habe kein Konto";
+
+//OnBoardingViewController
+
+"onBoard_view_title_txt_1" = "Speichern und verwalten Sie alle relevanten Daten zu Ihrem Haustier an einem Ort";
+"onBoard_view_title_txt_2" = "Erstellen Sie wiederkehrende Aufgaben für Ihre Haustiere und lassen Sie sich erinnern";
+"onBoard_view_title_txt_3" = "Halte die schönsten Momente mit deinen Liebsten im Tagebuch fest";
+"onBoard_view_title_btn_1" = "Loslegen";
+"onBoard_view_title_btn_2" = "Überspringen";
+"onBoard_view_title_btn_3" = "Fortsetzen";
+
+
+// OtherViewController
+"other_view_title_txt_1" = "Welches Haustier möchtest du erstellen?";
+"other_view_title_btn_1" = "Fortsetzen";
+"url_backend" = "https://patme.app/api/";
+"other_view_title_txt_2" = "Benutzerdefinierte Arten";
+
+// RegisterViewController
+"register_view_title_txt_1" = "Wie heißt du %@? ";
+"register_view_title_placeholder_1" = "Name des ";
+
+"register_view_title_txt_3" = "Ich bin der rechtmäßige Besitzer dieses Haustieres";
+"register_view_btn_txt_1" = "Fortsetzen";
+
+// RegisterPictureViewController
+"register_Picture_view_title_txt_1" = "Möchten Sie ein Bild von hinzufügen %@  ? ";
+"register_Picture_view_title_btn_1" = "Später hinzufügen";
+
+"register_Picture_title_txt_3" = "Ich bin der rechtmäßige Besitzer dieses Haustieres";
+"register_Picture_view_btn_txt_1" = "Fortsetzen";
+
+
+// GenereViewController
+"genere_view_title_txt_1" = "Welches Geschlecht ist ";
+"genere_view_title_txt_2" = "Männlich";
+"genere_view_title_txt_3" = "Weiblich";
+"genere_view_title_txt_4" = "Andere";
+"genere_view_title_btn_1" = "Später hinzufügen";
+
+// NeuteredViewController
+"neutered_view_title_txt_1" = "Ist ";
+"neutered_view_title_txt_2" = "intakt, kastriert oder kastriert?";
+"neutered_view_title_btn_1" = "Intakt";
+"neutered_view_title_btn_2" = "Kastriert/Kastriert";
+"neutered_view_title_btn_3" = "Später hinzufügen";
+// BreedViewController
+
+"breed_view_title_txt_2" = "Welche Rasse ist %@ ?";
+"breed_view_title_txt_1" = "Hinzufügen ";
+"breed_view_title_txt_3" = "Gemischte Rasse";
+"breed_view_title_placejolder" = "Fügen Sie eine oder mehrere Rassen hinzu";
+"breed_view_title_btn_3" = "
+Später hinzufügen";
+// BirthdayViewController
+
+"birthday_view_title_txt_1" = "%@ ist %d Jahr und %d months old";
+"birthday_view_title_txt_2" = "%@s lukeys geburtsdatum ist da %d %@";
+"birthday_view_title_txt_3" = " Wie alt ist %@' ?";
+
+"birthday_view_title_txt_4" = " Fügen Sie eine oder mehrere Rassen hinzu";
+"birthday_view_title_txt_5" = " Ich kenne das genaue Geburtsdatum";
+
+"January" = "Januar";
+"February" = "Februar";
+"March" = "März";
+"April" = "April";
+"May" = "Mai";
+"June" = "Juni";
+"July" = "Juli";
+"August" = "August";
+"September" = "September";
+"October" = "Oktober";
+"November" = "November";
+"December" = "Dezember";
+
+
+//MainSpecieEnum
+
+"Dog" = "Hund";
+"Cat" = "Katze";
+"Horse" = "Pferd";
+"Bird" = "Vogel";
+"Rabbit" = "Kaninchen";
+"Other" = "Andere";
+
+// SuccesRegisterViewController
+
+"success_view_title_txt_1" = "%@ wurde erfolgreich hinzugefügt";
+"success_view_title_txt_2" = "Sie können später in der App weitere Informationen über Lucky hinzufügen. Als nächstes können Sie zur App gehen oder ein weiteres Haustier hinzufügen.";
+
+"success_view_title_btn_1" = "Lass uns gehen";
+"success_view_title_btn_2" = " Füge ein weiteres Haustier hinzu";

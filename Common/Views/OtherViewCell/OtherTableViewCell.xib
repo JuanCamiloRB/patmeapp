@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Rubik-Regular.ttf">
+            <string>Rubik-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="OtherTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="60" id="KGk-i7-Jjw" customClass="OtherTableViewCell" customModule="patmeapp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b87-dL-DnJ">
+                        <rect key="frame" x="20" y="20" width="200" height="19"/>
+                        <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VQj-Va-BUu">
+                        <rect key="frame" x="276" y="16" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="7fy-oP-kRX"/>
+                            <constraint firstAttribute="height" constant="24" id="Zaw-nz-vvb"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VQj-Va-BUu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="7SC-Vo-9WG"/>
+                    <constraint firstItem="b87-dL-DnJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="20" id="IJ8-r3-hoA"/>
+                    <constraint firstAttribute="bottom" secondItem="b87-dL-DnJ" secondAttribute="bottom" constant="20" id="cSa-PY-4bE"/>
+                    <constraint firstAttribute="bottom" secondItem="VQj-Va-BUu" secondAttribute="bottom" constant="16" id="iVx-xZ-qY9"/>
+                    <constraint firstAttribute="trailing" secondItem="VQj-Va-BUu" secondAttribute="trailing" constant="20" id="oBY-Zn-1bQ"/>
+                    <constraint firstItem="b87-dL-DnJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="vNC-MO-s0e"/>
+                    <constraint firstAttribute="trailing" secondItem="b87-dL-DnJ" secondAttribute="trailing" constant="100" id="za2-cp-rTO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iconCheck" destination="VQj-Va-BUu" id="u6N-BJ-CFy"/>
+                <outlet property="lblPet" destination="b87-dL-DnJ" id="IUF-VE-xlr"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="75"/>
+        </tableViewCell>
+    </objects>
+</document>

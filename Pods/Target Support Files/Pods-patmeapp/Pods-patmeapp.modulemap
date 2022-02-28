@@ -1,0 +1,6 @@
+framework module Pods_patmeapp {
+  umbrella header "Pods-patmeapp-umbrella.h"
+
+  export *
+  module * { export * }
+}

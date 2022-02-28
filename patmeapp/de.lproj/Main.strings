@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "Get Started"; ObjectID = "4ZY-xA-4So"; */
+"4ZY-xA-4So.normalTitle" = "Get Started";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "LSq-KE-Wi1"; */
+"LSq-KE-Wi1.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "Ozx-1P-A6Z"; */
+"Ozx-1P-A6Z.normalTitle" = "Login";
+
+/* Class = "UILabel"; text = "Welcome to patme"; ObjectID = "TJq-C0-p7n"; */
+"TJq-C0-p7n.text" = "Welcome to patme";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "UJO-KL-IDg"; */
+"UJO-KL-IDg.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "I don’t have an account"; ObjectID = "c4Y-25-NeQ"; */
+"c4Y-25-NeQ.normalTitle" = "I don’t have an account";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "tid-jh-mpN"; */
+"tid-jh-mpN.normalTitle" = "Skip";
+
+/* Class = "UILabel"; text = "Welcome to patme"; ObjectID = "z5U-Yy-nth"; */
+"z5U-Yy-nth.text" = "Welcome to patme";

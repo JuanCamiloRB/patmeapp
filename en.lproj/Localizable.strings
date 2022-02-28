@@ -1,0 +1,112 @@
+/* 
+  Localizable.strings
+  patmeapp
+
+  Created by Juan Camilo on 22/12/21.
+  
+*/
+
+//Login idioma
+
+"language" = "en";
+
+// startViewController
+
+"start_view_title_txt_1" = "Which pet do you want to create?";
+
+//LoginViewController
+
+"login_view_title_txt_1" = "Welcome to patme";
+"login_view_title_txt_2" = "A better tomorrow for pets";
+"login_view_title_btn_1" = "Login";
+"login_view_title_btn_2" = "I don’t have an account";
+
+//OnBoardingViewController
+
+"onBoard_view_title_txt_1" = "Save and manage all relevant data about your pet in one place";
+"onBoard_view_title_txt_2" = "Create recurring tasks for your pets and get reminded";
+"onBoard_view_title_txt_3" = "Capture the most beautiful moments with your loved ones in the diary";
+"onBoard_view_title_btn_1" = "Get Started";
+"onBoard_view_title_btn_2" = "Skip";
+"onBoard_view_title_btn_3" = "Continue";
+
+
+// OtherViewController
+"other_view_title_txt_1" = "Which pet do you want to create?";
+"other_view_title_btn_1" = "Continue";
+"url_backend" = "https://patme.app/api/";
+"other_view_title_txt_2" = "Custom species";
+
+
+// RegisterViewController
+"register_view_title_txt_1" = "What is your %@'s name?";
+"register_view_title_placeholder_1" = "Name of the ";
+"register_view_title_txt_3" = "I am the legal owner of this pet";
+"register_view_btn_txt_1" = "Continue";
+
+// RegisterPictureViewController
+"register_Picture_view_title_txt_1" = "Do you want to add a picture of %@  ? ";
+"register_Picture_view_title_txt_2" =  "'s name?";
+"register_Picture_title_txt_3" = "I am the legal owner of this pet";
+"register_Picture_view_btn_txt_1" = "Continue";
+"register_Picture_view_title_btn_1" = "Add Later";
+
+// GenereViewController
+"genere_view_title_txt_1" = "What gender is ";
+"genere_view_title_txt_2" = "Male";
+"genere_view_title_txt_3" = "Female";
+"genere_view_title_txt_4" = "Other";
+"genere_view_title_btn_1" = "Add later";
+
+// NeuteredViewController
+"neutered_view_title_txt_1" = "Is ";
+"neutered_view_title_txt_2" = " intact, neutered, or spayed?";
+"neutered_view_title_btn_1" = "Intact";
+"neutered_view_title_btn_2" = "Neutered/Spayed";
+"neutered_view_title_btn_3" = "Add later";
+
+
+// BreedViewController
+"breed_view_title_txt_1" = "Add ";
+"breed_view_title_txt_2" = "Which breed is %@ ?";
+"breed_view_title_txt_3" = "Mixed breed";
+"breed_view_title_placejolder" = "Add one or more breeds";
+"breed_view_title_btn_1" = "Add later";
+
+// BirthdayViewController
+"birthday_view_title_txt_1" = "%@ is %d year and %d months old";
+"birthday_view_title_txt_2" = "%@'s birthdate is in %d %d";
+"birthday_view_title_txt_3" = " How old is %@ ?";
+"birthday_view_title_txt_4" = " Add one or more breeds";
+"birthday_view_title_txt_5" = " I know the exact birthdate";
+
+"January" = "January";
+"February" = "February";
+"March" = "March";
+"April" = "April";
+"May" = "May";
+"June" = "June";
+"July" = "July";
+"August" = "August";
+"September" = "September";
+"October" = "October";
+"November" = "November";
+"December" = "December";
+
+//MainSpecieEnum
+
+"Dog" = "Dog";
+"Cat" = "Cat";
+"Horse" = "Horse";
+"Bird" = "Bird";
+"Rabbit" = "Rabbit";
+"Other" = "Other";
+
+// SuccesRegisterViewController
+
+"success_view_title_txt_1" = "%@ was added succesfully";
+"success_view_title_txt_2" = "You can add more information about Lucky later in the app. Next you can go to the app or add another pet.";
+
+"success_view_title_btn_1" = " Let's go";
+"success_view_title_btn_2" = " Add another pet";
+

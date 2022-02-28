@@ -1,0 +1,6 @@
+framework module POEditorAPI {
+  umbrella header "POEditorAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
